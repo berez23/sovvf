@@ -28,7 +28,7 @@
     "enhanced-resolve": "^3.4.1",
     "ipaddr.js": "^1.5.4",
     "moment": "^2.18.1",
-    "primeng": "^4.0.2",
+    "primeng": "^9.0.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.4"
   },
