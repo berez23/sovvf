@@ -15,7 +15,9 @@
     "avvia3": "ng serve --proxy-config proxy.conf3.js --host 0.0.0.0 --disable-host-check",
     "avvia4": "ng serve --proxy-config proxy.conf4.js --host 0.0.0.0 --disable-host-check",
     "lite-server": "lite-server --baseDir=\"./dist/SO115\"",
-    "watch-serve": "ng build --aot --watch --prod"
+    "watch-serve": "ng build --aot --watch --prod",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -68,7 +70,8 @@
     "rxjs": "^6.4.0",
     "snazzy-info-window": "^1.1.1",
     "tslib": "^1.9.3",
-    "zone.js": "~0.8.29"
+    "zone.js": "~0.8.29",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.13.8",
@@ -91,5 +94,6 @@
     "tslint": "~5.9.1",
     "typescript": "~3.2.4",
     "lite-server": "^2.4.0"
-  }
+  },
+  "snyk": true
 }
