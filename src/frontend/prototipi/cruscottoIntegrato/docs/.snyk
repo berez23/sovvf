@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - wintersmith-sassy > node-sass > lodash:
+        patched: '2020-04-30T21:19:31.712Z'
+    - wintersmith-sassy > node-sass > sass-graph > lodash:
+        patched: '2020-04-30T21:19:31.712Z'
+    - wintersmith-sassy > node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T21:19:31.712Z'
+    - wintersmith > npm > request > form-data > async > lodash:
+        patched: '2020-04-30T21:19:31.712Z'
