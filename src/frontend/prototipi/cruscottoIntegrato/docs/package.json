@@ -4,7 +4,13 @@
     "typogr": "0.5.x",
     "underscore": "1.4.x",
     "wintersmith": "2.3.1",
-    "wintersmith-sassy": "^1.0.0"
+    "wintersmith-sassy": "^1.0.0",
+    "snyk": "^1.316.1"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
