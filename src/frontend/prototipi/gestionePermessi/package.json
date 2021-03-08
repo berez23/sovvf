@@ -12,7 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-devkit/schematics": "0.0.46",
+    "@angular-devkit/schematics": "0.0.49",
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
